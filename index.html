@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpek Mpek "Kuah" Esemka - Segar Alami Asam Jawa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .bg-yellow-brand { background-color: #FACC15; }
+        .text-yellow-brand { color: #FACC15; }
+        .rounded-custom { border-radius: 2rem; }
+        .img-zoom { transition: transform 0.3s ease; }
+        .img-zoom:hover { transform: scale(1.05); }
+        .wa-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .wa-float:hover {
+            background-color: #128c7e;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#order-form" class="wa-float">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="mr-2" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+        <span class="text-sm font-bold">Pesan Sekarang</span>
+    </a>
+
+    <!-- Header / Hero Section -->
+    <header class="bg-yellow-brand min-h-screen flex flex-col items-center justify-start pt-16 px-4">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">Mpek Mpek "Kuah" ESEMKA</h1>
+            <p class="text-xl md:text-2xl font-light">Tanpa Cuka, Segar Alami Asam Jawa!</p>
+        </div>
+
+        <div class="relative w-full max-w-5xl">
+            <div class="w-full h-[400px] md:h-[550px] bg-gray-200 rounded-custom overflow-hidden shadow-2xl flex items-center justify-center">
+                <img src="pempek1.jpg" alt="Sajian Pempek Kuah Asam Jawa" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute bottom-8 left-0 right-0 flex flex-wrap justify-center gap-4 px-4 text-center">
+                <a href="#order-form" class="bg-black text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-800 transition uppercase">Order via WA</a>
+                <a href="#menu" class="bg-white text-black px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition uppercase">Lihat Harga</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About & Unique Selling Point -->
+    <section id="about" class="py-24 px-4 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
+            <div class="rounded-custom overflow-hidden h-[400px] shadow-lg">
+                <img src="telor.jpg" alt="Detail Kuah Asam Jawa" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <h2 class="text-5xl font-bold mb-6">Kenapa Harus <span class="text-yellow-600">Kuah</span>?</h2>
+                <p class="text-lg text-gray-700 leading-relaxed italic">
+                    "Nikmat makannya, aman lambungnya."
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Mpek Mpek "Kuah" Esemka hadir dengan inovasi berani. Kami mengganti cuka kimia dengan **Asam Jawa asli**. Hasilnya? Rasa asam yang lebih *soft*, segar di tenggorokan, dan yang terpenting: **gak bikin perut perih!**
+                </p>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <h2 class="text-5xl font-bold mb-4">Rahasia <span class="text-yellow-600">Asam Jawa</span></h2>
+                <p class="text-lg text-gray-700">
+                    Bukan sembarang kuah, kami meracik asam jawa pilihan dengan gula aren murni. Menciptakan keseimbangan rasa gurih ikan tenggiri dan kesegaran kuah yang bisa kamu hirup sampai tetes terakhir tanpa rasa khawatir.
+                </p>
+            </div>
+            <div class="bg-yellow-brand rounded-custom p-8 md:p-12 order-1 md:order-2">
+                <ul class="space-y-8">
+                    <li class="flex gap-4">
+                        <span class="bg-black text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">✓</span>
+                        <div>
+                            <h3 class="font-bold text-xl">100% Bebas Cuka</h3>
+                            <p class="text-sm">Aman untuk penderita maag atau kamu yang sedang menjaga kesehatan lambung.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="bg-black text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">✓</span>
+                        <div>
+                            <h3 class="font-bold text-xl">Ikan Tenggiri Premium</h3>
+                            <p class="text-sm">Rasa ikan yang dominan, tekstur kenyal tanpa bahan pengawet.</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="bg-black text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">✓</span>
+                        <div>
+                            <h3 class="font-bold text-xl">Segar & Alami</h3>
+                            <p class="text-sm">Dibuat fresh setiap hari dengan bumbu rempah nusantara.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-5xl font-bold mb-12">Menu & Harga</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Kapal Selam -->
+                <div class="bg-white p-4 rounded-3xl shadow-md border border-gray-100 overflow-hidden group">
+                    <div class="w-full h-48 bg-gray-200 rounded-2xl mb-4 overflow-hidden">
+                        <img src="pempek1.jpg" alt="Kapal Selam" class="w-full h-full object-cover img-zoom">
+                    </div>
+                    <h3 class="text-2xl font-bold">Kapal Selam</h3>
+                    <p class="text-gray-500 text-sm mb-2">Isi telur utuh, porsi mantap</p>
+                    <p class="text-yellow-600 font-bold text-2xl mt-2">Rp 6.000</p>
+                </div>
+                <!-- Lenjer -->
+                <div class="bg-white p-4 rounded-3xl shadow-md border border-gray-100 overflow-hidden group">
+                    <div class="w-full h-48 bg-gray-200 rounded-2xl mb-4 overflow-hidden">
+                        <img src="lenjer.jpg" alt="Lenjer" class="w-full h-full object-cover img-zoom">
+                    </div>
+                    <h3 class="text-2xl font-bold">Lenjer</h3>
+                    <p class="text-gray-500 text-sm mb-2">Original gurih ikan tenggiri</p>
+                    <p class="text-yellow-600 font-bold text-2xl mt-2">Rp 2.000</p>
+                </div>
+                <!-- Mini -->
+                <div class="bg-white p-4 rounded-3xl shadow-md border border-gray-100 overflow-hidden group">
+                    <div class="w-full h-48 bg-gray-200 rounded-2xl mb-4 overflow-hidden">
+                        <img src="mini.webp" alt="Pempek Mini" class="w-full h-full object-cover img-zoom">
+                    </div>
+                    <h3 class="text-2xl font-bold">Pempek Mini</h3>
+                    <p class="text-gray-500 text-sm mb-2">Camilan pas sekali hap!</p>
+                    <p class="text-yellow-600 font-bold text-2xl mt-2">Rp 2.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order-form" class="py-24 px-4 bg-white">
+        <div class="max-w-3xl mx-auto bg-gray-50 p-8 md:p-12 rounded-custom shadow-xl border border-yellow-100">
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-bold">Form Pemesanan</h2>
+                <p class="text-gray-600 mt-2">Asam jawanya asli, segarnya gak pake janji!</p>
+            </div>
+
+            <form id="waForm" class="space-y-6">
+                <!-- Nama -->
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Nama Pemesan</label>
+                    <input type="text" id="name" required placeholder="Contoh: Reza" 
+                           class="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:outline-none">
+                </div>
+
+                <!-- Pilih Menu & Jumlah -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Pilih Menu</label>
+                        <select id="menuSelect" required 
+                                class="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:outline-none">
+                            <option value="" data-price="0">-- Pilih Menu --</option>
+                            <option value="Kapal Selam" data-price="6000">Kapal Selam (Rp 6.000)</option>
+                            <option value="Lenjer" data-price="2000">Lenjer (Rp 2.000)</option>
+                            <option value="Pempek Mini" data-price="2000">Pempek Mini (Rp 2.000)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Jumlah (Porsi/Pcs)</label>
+                        <input type="number" id="quantity" min="1" value="1" required 
+                               class="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:outline-none">
+                    </div>
+                </div>
+
+                <!-- Alamat -->
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Alamat Pengantaran</label>
+                    <textarea id="address" required rows="3" placeholder="Jl. Mahar Martanegara No..."
+                              class="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:outline-none"></textarea>
+                </div>
+
+                <!-- Total Display -->
+                <div class="bg-yellow-100 p-6 rounded-2xl flex justify-between items-center border border-yellow-200">
+                    <span class="text-lg font-bold">Estimasi Total:</span>
+                    <span id="totalDisplay" class="text-2xl font-bold text-yellow-700">Rp 0</span>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" 
+                        class="w-full bg-black text-white py-5 rounded-xl font-bold text-lg hover:bg-gray-800 transition shadow-lg">
+                    KIRIM PESANAN KE WHATSAPP
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-yellow-brand py-20 text-center">
+        <p class="font-bold text-2xl mb-2 italic">Mpek Mpek "Kuah" ESEMKA</p>
+        <p class="mb-6">Jalan Mahar Martanegara No. 48, Cimahi</p>
+        <p class="text-sm font-semibold mb-6">"Asam Jawanya Asli, Segarnya Gak Pake Janji!"</p>
+        <div class="flex justify-center gap-6 mb-6">
+            <a href="#" class="hover:underline">Instagram</a>
+            <a href="https://wa.me/6281234567890" class="hover:underline">WhatsApp</a>
+        </div>
+        <p class="text-sm opacity-60">© 2026 Mpek Mpek Kuah ESEMKA. Laris Manis Berkah.</p>
+    </footer>
+
+    <script>
+        const menuSelect = document.getElementById('menuSelect');
+        const quantityInput = document.getElementById('quantity');
+        const totalDisplay = document.getElementById('totalDisplay');
+        const waForm = document.getElementById('waForm');
+
+        // Fungsi hitung total otomatis
+        function calculateTotal() {
+            const price = menuSelect.options[menuSelect.selectedIndex].getAttribute('data-price') || 0;
+            const qty = quantityInput.value || 0;
+            const total = price * qty;
+            totalDisplay.innerText = 'Rp ' + total.toLocaleString('id-ID');
+            return total;
+        }
+
+        menuSelect.addEventListener('change', calculateTotal);
+        quantityInput.addEventListener('input', calculateTotal);
+
+        // Handler kirim ke WhatsApp
+        waForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const menu = menuSelect.value;
+            const qty = quantityInput.value;
+            const address = document.getElementById('address').value;
+            const total = totalDisplay.innerText;
+            
+            const phoneNumber = "62895332777171"; // Ganti dengan nomor WA aslimu
+            
+            const message = `*PESANAN BARU - KUAH ESEMKA*\n` +
+                          `------------------------------\n` +
+                          `*Nama:* ${name}\n` +
+                          `*Menu:* ${menu}\n` +
+                          `*Jumlah:* ${qty}\n` +
+                          `*Alamat:* ${address}\n` +
+                          `------------------------------\n` +
+                          `*Total Estimasi:* ${total}\n\n` +
+                          `_Makan Pempek Puas, Tanpa Takut Lambung Gas!_`;
+            
+            const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(waUrl, '_blank');
+        });
+    </script>
+
+</body>
+</html>
